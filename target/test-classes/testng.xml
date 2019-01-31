@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Tests" parallel="tests">
+    <!--<listeners>
+        <listener class-name="ru.rgs.APITests.RetryListener"/>
+    </listeners>
+-->
+    <!--<test name="remove">
+            <classes>
+                <class name="ru.rgs.APITests.tests.agentStatement.RemoveAgentStatementNoDelTests"/>
+                <class name="ru.rgs.APITests.tests.agentStatement.RemoveAgentStatementTests"/>
+                <class name="ru.rgs.APITests.tests.contracts.osago.RemoveOsagoTests"/>
+                <class name="ru.rgs.APITests.tests.contracts.casco.RemoveCascoTests"/>
+                <class name="ru.rgs.APITests.tests.contracts.casco.RemoveCascoConditionalTests"/>
+                <class name="ru.rgs.APITests.tests.contracts.casco.RemoveCascoBusinessAutoTest"/>
+                <class name="ru.rgs.APITests.tests.contracts.dsago.RemoveDsagoTests"/>
+                <class name="ru.rgs.APITests.tests.contracts.greenCard.RemoveGreenCardTests"/>
+                <class name="ru.rgs.APITests.tests.contracts.ob.RemovePrimaryBusinessTests"/>
+                <class name="ru.rgs.APITests.tests.contracts.ob.RemovePrimaryBusinessNoBsoTests"/>
+                <class name="ru.rgs.APITests.tests.contracts.ob.RemovePrimaryBusinessConditionalTests"/>
+                <class name="ru.rgs.APITests.tests.contracts.ob.RemovePrimaryBusinessNoBsoConditionalTests"/>
+                <class name="ru.rgs.APITests.tests.contracts.boxed.RemoveBoxedTests"/>
+                <class name="ru.rgs.APITests.tests.contracts.techInspection.RemoveTechInspectionTests"/>
+                <class name="ru.rgs.APITests.tests.contracts.osgopp.RemoveOsgoppTests"/>
+                <class name="ru.rgs.APITests.tests.contracts.osopo.RemoveOsopoTests"/>
+            </classes>
+    </test>-->
+
+    <test name="search">
+
+        <classes>
+
+        </classes>
+    </test>
+
+
+</suite>
