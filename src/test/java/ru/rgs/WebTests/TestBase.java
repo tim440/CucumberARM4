@@ -2,8 +2,8 @@ package ru.rgs.WebTests;
 
 import io.qameta.allure.Step;
 import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.ITestContext;
 import org.testng.annotations.*;
 
 import java.util.concurrent.TimeUnit;
@@ -19,7 +19,7 @@ public class TestBase {
    */
   private static StandProperties STAND = StandProperties.TEST3;
   protected static String BASE_URL;
-  public static FirefoxDriver  wd;
+  public static ChromeDriver wd;
   private static String AUTH_URL;
   private boolean acceptNextAlert = true;
   private StringBuffer verificationErrors = new StringBuffer();
@@ -31,7 +31,7 @@ public class TestBase {
   public static void setUp() {
     BASE_URL = STAND.getUrl();
     AUTH_URL = BASE_URL + "auth/login.jsp";
-    wd = new FirefoxDriver();
+    wd = new ChromeDriver();
     wd.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
     wd.manage().window().maximize();
     login();

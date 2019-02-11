@@ -1,7 +1,5 @@
-allure-results/*
-.idea/workspace.xml
-.idea/uiDesigner.xml
-.idea/workspace.xml
-.idea/workspace.xml
+.idea/*
 build/cucumber-report/*
-target/allure-results/*
+target/*
+*.lst
+
