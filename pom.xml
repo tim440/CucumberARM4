@@ -122,5 +122,46 @@
         </plugins>
 
     </build>
+    <reporting>
+        <excludeDefaults>true</excludeDefaults>
+        <plugins>
+            <plugin>
+                <groupId>io.qameta.allure</groupId>
+                <artifactId>allure-maven</artifactId>
+                <version>${allure-mave-plagin.version}</version>
+
+            </plugin>
+        </plugins>
+    </reporting>
+    <profiles>
+        <!-- environment -->
+        <profile>
+            <id>del</id>
+            <properties>
+                <suiteXmlFile>src/test/resources/delng.xml</suiteXmlFile>
+            </properties>
+        </profile>
+        <profile>
+            <id>jdev</id>
+            <properties>
+                <site.url>http://arm4-dev.tengry.com/armweb/</site.url>
+            </properties>
+        </profile>
+        <profile>
+            <id>test2</id>
+            <properties>
+                <site.url>http://arm4-test2-web.tengry.com/armweb/</site.url>
+            </properties>
+        </profile>
+        <profile>
+            <id>test3</id>
+            <properties>
+                <site.url>http://arm4-test3-web.tengry.com/armweb/</site.url>
+            </properties>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+        </profile>
+    </profiles>
 
 </project>

@@ -1,0 +1,11 @@
+ru\rgs\WebTests\ErrorTestListener.class
+ru\rgs\WebTests\bdd\OaTests.class
+ru\rgs\WebTests\RetryAnalyzer.class
+ru\rgs\WebTests\tests\AddAgentStatement.class
+ru\rgs\WebTests\StandProperties.class
+ru\rgs\WebTests\bdd\OaDefinitions.class
+ru\rgs\WebTests\Constants.class
+ru\rgs\WebTests\TestBase.class
+ru\rgs\WebTests\tests\logIn.class
+ru\rgs\WebTests\RetryListener.class
+ru\rgs\WebTests\tests\DelAgentStatement.class

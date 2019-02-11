@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Tests" parallel="tests">
-    <!--<listeners>
-        <listener class-name="ru.rgs.APITests.RetryListener"/>
+    <listeners>
+        <listener class-name="ru.rgs.WebTests.ErrorTestListener"/>
     </listeners>
--->
     <!--<test name="remove">
             <classes>
                 <class name="ru.rgs.APITests.tests.agentStatement.RemoveAgentStatementNoDelTests"/>
@@ -26,9 +25,12 @@
             </classes>
     </test>-->
 
-    <test name="search">
+    <test name="test">
 
         <classes>
+            <class name="ru.rgs.WebTests.bdd.OaTests"/>
+            <!--<class name="ru.rgs.WebTests.tests.DelAgentStatement"/>
+            <class name="ru.rgs.WebTests.tests.AddAgentStatement"/>-->
 
         </classes>
     </test>
