@@ -8,8 +8,8 @@ import ru.rgs.WebTests.ErrorTestListener;
 @Listeners(ErrorTestListener.class)
 
 @CucumberOptions(
-        features = "src/test/resources/bdd/createOA.feature",
+        features = "src/test/resources/bdd/exitBrowser.feature",
         plugin={"pretty", "html:build/cucumber-report"})
 
-public class OaTests extends AbstractTestNGCucumberTests {
+public class ExitBrowserTest extends AbstractTestNGCucumberTests {
 }

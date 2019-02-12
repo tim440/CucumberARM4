@@ -32,14 +32,7 @@ public class AddAgentStatement extends TestBase {
   }
 
 
-  private boolean isElementPresent(By by) {
-    try {
-      wd.findElement(by);
-      return true;
-    } catch (NoSuchElementException e) {
-      return false;
-    }
-  }
+
 
   private boolean isAlertPresent() {
     try {

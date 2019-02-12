@@ -26,8 +26,7 @@ public class ErrorTestListener implements ITestListener  {
 
   @Override
   public void onTestSkipped(ITestResult iTestResult) {
-
-
+    saveScreenshot(TestBase.takeScreenshot());
   }
   @Attachment(value = "Page_screenshot", type = "image/png")
   public byte[] saveScreenshot(byte[] screenShot) {

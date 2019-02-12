@@ -3,13 +3,16 @@ package ru.rgs.WebTests;
 import io.qameta.allure.Step;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.annotations.*;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Listeners;
 
 import java.util.concurrent.TimeUnit;
 
-import static org.testng.Assert.fail;
-import static ru.rgs.WebTests.Constants.*;
+import static ru.rgs.WebTests.Constants.LOGIN;
+import static ru.rgs.WebTests.Constants.PASSWORD;
 
 
 @Listeners(ErrorTestListener.class)
@@ -18,18 +21,15 @@ public class TestBase {
    * Площадка по умолчанию.
    */
   private static StandProperties STAND = StandProperties.TEST3;
-  protected static String BASE_URL;
-  public static ChromeDriver wd;
+  protected static ChromeDriver wd;
   private static String AUTH_URL;
   private boolean acceptNextAlert = true;
   private StringBuffer verificationErrors = new StringBuffer();
 
 
-
-
   @BeforeSuite
   public static void setUp() {
-    BASE_URL = STAND.getUrl();
+    String BASE_URL = STAND.getUrl();
     AUTH_URL = BASE_URL + "auth/login.jsp";
     wd = new ChromeDriver();
     wd.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
@@ -37,7 +37,6 @@ public class TestBase {
     login();
 
   }
-
 
 
   /*@BeforeMethod
@@ -48,9 +47,9 @@ public class TestBase {
     wd.manage().window().maximize();
     login();
   }*/
-  @Step("Login")
+  @Step("Вход в систему")
   protected static void login() {
-
+    WebDriverWait wait = new WebDriverWait(wd, 3);
     wd.get(AUTH_URL);
     wd.findElement(By.id("usernameField-inputEl")).click();
     wd.findElement(By.id("passwordField-inputEl")).clear();
@@ -58,11 +57,12 @@ public class TestBase {
     wd.findElement(By.id("usernameField-inputEl")).clear();
     wd.findElement(By.id("usernameField-inputEl")).sendKeys(LOGIN);
     wd.findElement(By.id("button-1011-btnIconEl")).click();
+    wait.until(ExpectedConditions.elementToBeClickable(By.id("acceptBtn-btnIconEl")));
     wd.findElement(By.id("acceptBtn-btnIconEl")).click();
   }
 
   @Step("Screenshot")
-  protected static byte[] takeScreenshot(){
+  static byte[] takeScreenshot() {
     return ((TakesScreenshot) wd).getScreenshotAs(OutputType.BYTES);
   }
 
@@ -72,17 +72,9 @@ public class TestBase {
     wd.quit();
 
 
-
   }
 
-  private boolean isElementPresent(By by) {
-    try {
-      wd.findElement(by);
-      return true;
-    } catch (NoSuchElementException e) {
-      return false;
-    }
-  }
+
 
   private boolean isAlertPresent() {
     try {
@@ -105,6 +97,15 @@ public class TestBase {
       return alertText;
     } finally {
       acceptNextAlert = true;
+    }
+  }
+
+  protected boolean isElementPresent(By locator) {
+    try {
+      wd.findElement(locator);
+      return true;
+    } catch (NoSuchElementException e) {
+      return false;
     }
   }
 }
