@@ -3,3 +3,5 @@ build/cucumber-report/*
 target/*
 *.lst
 
+debug.log
+*.log

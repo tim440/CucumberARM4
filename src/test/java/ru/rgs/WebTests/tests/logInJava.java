@@ -7,7 +7,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import ru.rgs.WebTests.TestBase;
 
-public class logIn extends TestBase {
+public class logInJava extends TestBase {
 
 
   @Test

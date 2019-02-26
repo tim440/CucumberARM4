@@ -22,19 +22,20 @@ public class TestBase {
    */
   private static StandProperties STAND = StandProperties.TEST3;
   protected static ChromeDriver wd;
-  private static String AUTH_URL;
+  protected static String AUTH_URL;
   private boolean acceptNextAlert = true;
   private StringBuffer verificationErrors = new StringBuffer();
 
 
-  @BeforeSuite
+  /*@BeforeSuite*/
   public static void setUp() {
     String BASE_URL = STAND.getUrl();
     AUTH_URL = BASE_URL + "auth/login.jsp";
     wd = new ChromeDriver();
-    wd.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
     wd.manage().window().maximize();
-    login();
+    /*wd.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+
+    login();*/
 
   }
 
@@ -47,18 +48,31 @@ public class TestBase {
     wd.manage().window().maximize();
     login();
   }*/
+
+
+  @Step("Log")
+  public void log(String s) {
+    System.out.println(s);
+  }
+
   @Step("Вход в систему")
-  protected static void login() {
-    WebDriverWait wait = new WebDriverWait(wd, 3);
+  protected static void login() throws InterruptedException {
+
     wd.get(AUTH_URL);
+    WebDriverWait wait = new WebDriverWait(wd, 10);
+
     wd.findElement(By.id("usernameField-inputEl")).click();
     wd.findElement(By.id("passwordField-inputEl")).clear();
     wd.findElement(By.id("passwordField-inputEl")).sendKeys(PASSWORD);
     wd.findElement(By.id("usernameField-inputEl")).clear();
     wd.findElement(By.id("usernameField-inputEl")).sendKeys(LOGIN);
-    wd.findElement(By.id("button-1011-btnIconEl")).click();
-    wait.until(ExpectedConditions.elementToBeClickable(By.id("acceptBtn-btnIconEl")));
-    wd.findElement(By.id("acceptBtn-btnIconEl")).click();
+    wait.until(ExpectedConditions.elementToBeClickable(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Войти'])[1]/following::span[1]")));
+    wd.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Войти'])[1]/following::span[1]")).click();
+    /*wd.findElement(By.id("button-1011-btnIconEl")).click();*/
+    Thread.sleep(300);
+    wait.until(ExpectedConditions.elementToBeClickable(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Принять'])[1]/following::span[1]")));
+
+    wd.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Принять'])[1]/following::span[1]")).click();
   }
 
   @Step("Screenshot")

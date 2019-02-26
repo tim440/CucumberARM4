@@ -28,9 +28,10 @@
     <test name="test">
 
         <classes>
-            <class name="ru.rgs.WebTests.bdd.OaTests"/>
-            <class name="ru.rgs.WebTests.bdd.ExitBrowserTest"/>
-            <!--<class name="ru.rgs.WebTests.tests.DelAgentStatement"/>
+            <class name="ru.rgs.WebTests.bdd.OaTestsRun"/>
+
+            <class name="ru.rgs.WebTests.tests.DelAgentStatement"/>
+            <!--<class name="ru.rgs.WebTests.bdd.ExitBrowserRun/>
             <class name="ru.rgs.WebTests.tests.AddAgentStatement"/>-->
 
         </classes>
