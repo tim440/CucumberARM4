@@ -1,4 +1,4 @@
-package ru.rgs.WebTests.bdd;
+package ru.rgs.WebTests.bdd.agentStatement;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
@@ -8,8 +8,8 @@ import ru.rgs.WebTests.ErrorTestListener;
 @Listeners(ErrorTestListener.class)
 
 @CucumberOptions(
-        features = "src/test/resources/bdd/delOA.feature" ,
+        features = "src/test/resources/bdd/agentStatement/delOA.feature" ,
         plugin = {"pretty", "html:build/cucumber-report"})
 
-public class OaDel extends AbstractTestNGCucumberTests {
+public class OaDelRun extends AbstractTestNGCucumberTests {
 }

@@ -1,4 +1,4 @@
-package ru.rgs.WebTests.bdd;
+package ru.rgs.WebTests;
 
 import cucumber.api.java.Before;
 import cucumber.api.java.ru.Когда;

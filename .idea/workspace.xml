@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c35fd9fb-986f-4d46-9301-883dbb3876bc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/CreateOaDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/CreateOa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/ExitBrowserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/ExitBrowserRun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/OaTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/OaTestsRun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/tests/DelAgentStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/tests/DelAgentStatement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/tests/logIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/tests/logInJava.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/bdd/createOA.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/bdd/createOA.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/CreateOa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/agentStatement/CreateOa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/DelAgentStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/agentStatement/DelAgentStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/OaDel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/agentStatement/OaDelRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/OaTestsRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/agentStatement/OaTestsRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/tests/AddAgentStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/testsJava/AddAgentStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/tests/DelAgentStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/testsJava/DelAgentStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/tests/logInJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/testsJava/logInJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/bdd/createOA.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/bdd/agentStatement/createOA.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/bdd/delOA.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/bdd/agentStatement/delOA.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,11 +29,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/bdd/createOA.feature">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="29" />
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/agentStatement/OaDelRun.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/bdd/agentStatement/createOA.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="81" column="12" selection-start-line="81" selection-start-column="12" selection-end-line="81" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/allure.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="34" selection-start-column="34" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -38,34 +80,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="64" column="59" lean-forward="true" selection-start-line="64" selection-start-column="59" selection-end-line="64" selection-end-column="59" />
+            <state relative-caret-position="680">
+              <caret line="52" column="2" selection-start-line="52" selection-start-column="2" selection-end-line="52" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2528#2529#0" expanded="true" />
-                <element signature="e#2601#2602#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/OaDel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1350#1351#0" expanded="true" />
+                <element signature="e#1381#1382#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/OaTestsRun.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/Constants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="119">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/agentStatement/OaTestsRun.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="7" column="2" selection-start-line="7" selection-end-line="7" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,19 +113,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/bdd/delOA.feature">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/agentStatement/CreateOa.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+            <state relative-caret-position="51">
+              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/tests/DelAgentStatement.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/agentStatement/DelAgentStatement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-443">
-              <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+            <state relative-caret-position="289">
+              <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,7 +167,6 @@
         <option value="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/tests/exmpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/tests/delAgentStatement.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/tests/ErorTestListener.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/ErorTestListener.java" />
         <option value="$PROJECT_DIR$/CucumberARM4.iml" />
         <option value="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/StepDefinitions.java" />
@@ -140,22 +181,27 @@
         <option value="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/ExitBrouserTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/ExitBrowser.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/ExitBrowserDef.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/CreateOa.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/ExitBrowserTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/ExitBrowserTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/OaTests.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/bdd/createOA.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/bdd/login.feature" />
         <option value="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/Login.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/CreateOaDef.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/ExitBrowserRun.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/tests/DelAgentStatement.java" />
         <option value="$PROJECT_DIR$/src/test/resources/bdd/delOA.feature" />
         <option value="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/OaDel.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/OaTestsRun.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/DelAgentStatement.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/Login.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/DelAgentStatement.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/CreateOa.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/bdd/createOA.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/testng.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/agentStatement/OaDelRun.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/agentStatement/OaTestsRun.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/bdd/agentStatement/createOA.feature" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -206,1468 +252,19 @@
     <option name="jreName" value="#JAVA_INTERNAL" />
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="109" />
-    <option name="y" value="146" />
-    <option name="width" value="1280" />
-    <option name="height" value="728" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
-  </component>
-  <component name="ProjectUserFactors">
-    <factor id="binaryFeature:liftShorter">
-      <dailyData date="12-02-2019">
-        <observation name="false" value="56,0" />
-      </dailyData>
-      <dailyData date="14-02-2019">
-        <observation name="false" value="6,0" />
-      </dailyData>
-      <dailyData date="15-02-2019">
-        <observation name="false" value="2,0" />
-      </dailyData>
-      <dailyData date="18-02-2019">
-        <observation name="false" value="1,0" />
-      </dailyData>
-      <dailyData date="22-02-2019">
-        <observation name="false" value="5,0" />
-      </dailyData>
-      <dailyData date="25-02-2019">
-        <observation name="false" value="57,0" />
-      </dailyData>
-    </factor>
-    <factor id="binaryFeature:liftShorterClasses">
-      <dailyData date="12-02-2019">
-        <observation name="UNDEFINED" value="23,0" />
-        <observation name="false" value="33,0" />
-      </dailyData>
-      <dailyData date="14-02-2019">
-        <observation name="false" value="6,0" />
-      </dailyData>
-      <dailyData date="15-02-2019">
-        <observation name="false" value="2,0" />
-      </dailyData>
-      <dailyData date="18-02-2019">
-        <observation name="false" value="1,0" />
-      </dailyData>
-      <dailyData date="22-02-2019">
-        <observation name="false" value="5,0" />
-      </dailyData>
-      <dailyData date="25-02-2019">
-        <observation name="UNDEFINED" value="9,0" />
-        <observation name="false" value="48,0" />
-      </dailyData>
-    </factor>
-    <factor id="binaryFeature:middleMatching">
-      <dailyData date="12-02-2019">
-        <observation name="false" value="56,0" />
-      </dailyData>
-      <dailyData date="14-02-2019">
-        <observation name="false" value="6,0" />
-      </dailyData>
-      <dailyData date="15-02-2019">
-        <observation name="false" value="2,0" />
-      </dailyData>
-      <dailyData date="18-02-2019">
-        <observation name="false" value="1,0" />
-      </dailyData>
-      <dailyData date="22-02-2019">
-        <observation name="false" value="5,0" />
-      </dailyData>
-      <dailyData date="25-02-2019">
-        <observation name="false" value="56,0" />
-        <observation name="true" value="1,0" />
-      </dailyData>
-    </factor>
-    <factor id="binaryFeature:nonGeneric">
-      <dailyData date="12-02-2019">
-        <observation name="0" value="9,0" />
-        <observation name="UNDEFINED" value="47,0" />
-      </dailyData>
-      <dailyData date="14-02-2019">
-        <observation name="0" value="3,0" />
-        <observation name="UNDEFINED" value="3,0" />
-      </dailyData>
-      <dailyData date="15-02-2019">
-        <observation name="0" value="2,0" />
-      </dailyData>
-      <dailyData date="18-02-2019">
-        <observation name="0" value="1,0" />
-      </dailyData>
-      <dailyData date="22-02-2019">
-        <observation name="0" value="4,0" />
-        <observation name="UNDEFINED" value="1,0" />
-      </dailyData>
-      <dailyData date="25-02-2019">
-        <observation name="0" value="8,0" />
-        <observation name="UNDEFINED" value="49,0" />
-      </dailyData>
-    </factor>
-    <factor id="binaryFeature:prox_inResolveScope">
-      <dailyData date="12-02-2019">
-        <observation name="UNDEFINED" value="12,0" />
-        <observation name="false" value="17,0" />
-        <observation name="true" value="27,0" />
-      </dailyData>
-      <dailyData date="14-02-2019">
-        <observation name="true" value="6,0" />
-      </dailyData>
-      <dailyData date="15-02-2019">
-        <observation name="true" value="2,0" />
-      </dailyData>
-      <dailyData date="18-02-2019">
-        <observation name="true" value="1,0" />
-      </dailyData>
-      <dailyData date="22-02-2019">
-        <observation name="true" value="5,0" />
-      </dailyData>
-      <dailyData date="25-02-2019">
-        <observation name="UNDEFINED" value="5,0" />
-        <observation name="false" value="17,0" />
-        <observation name="true" value="35,0" />
-      </dailyData>
-    </factor>
-    <factor id="binaryFeature:prox_openedInEditor">
-      <dailyData date="12-02-2019">
-        <observation name="UNDEFINED" value="12,0" />
-        <observation name="false" value="36,0" />
-        <observation name="true" value="8,0" />
-      </dailyData>
-      <dailyData date="14-02-2019">
-        <observation name="false" value="5,0" />
-        <observation name="true" value="1,0" />
-      </dailyData>
-      <dailyData date="15-02-2019">
-        <observation name="false" value="2,0" />
-      </dailyData>
-      <dailyData date="18-02-2019">
-        <observation name="false" value="1,0" />
-      </dailyData>
-      <dailyData date="22-02-2019">
-        <observation name="false" value="5,0" />
-      </dailyData>
-      <dailyData date="25-02-2019">
-        <observation name="UNDEFINED" value="5,0" />
-        <observation name="false" value="41,0" />
-        <observation name="true" value="11,0" />
-      </dailyData>
-    </factor>
-    <factor id="binaryFeature:prox_sameDirectory">
-      <dailyData date="12-02-2019">
-        <observation name="UNDEFINED" value="12,0" />
-        <observation name="false" value="43,0" />
-        <observation name="true" value="1,0" />
-      </dailyData>
-      <dailyData date="14-02-2019">
-        <observation name="false" value="3,0" />
-        <observation name="true" value="3,0" />
-      </dailyData>
-      <dailyData date="15-02-2019">
-        <observation name="true" value="2,0" />
-      </dailyData>
-      <dailyData date="18-02-2019">
-        <observation name="true" value="1,0" />
-      </dailyData>
-      <dailyData date="22-02-2019">
-        <observation name="false" value="5,0" />
-      </dailyData>
-      <dailyData date="25-02-2019">
-        <observation name="UNDEFINED" value="5,0" />
-        <observation name="false" value="46,0" />
-        <observation name="true" value="6,0" />
-      </dailyData>
-    </factor>
-    <factor id="binaryFeature:prox_sameLogicalRoot">
-      <dailyData date="12-02-2019">
-        <observation name="UNDEFINED" value="12,0" />
-        <observation name="false" value="38,0" />
-        <observation name="true" value="6,0" />
-      </dailyData>
-      <dailyData date="14-02-2019">
-        <observation name="false" value="3,0" />
-        <observation name="true" value="3,0" />
-      </dailyData>
-      <dailyData date="15-02-2019">
-        <observation name="true" value="2,0" />
-      </dailyData>
-      <dailyData date="18-02-2019">
-        <observation name="true" value="1,0" />
-      </dailyData>
-      <dailyData date="22-02-2019">
-        <observation name="false" value="5,0" />
-      </dailyData>
-      <dailyData date="25-02-2019">
-        <observation name="UNDEFINED" value="5,0" />
-        <observation name="false" value="41,0" />
-        <observation name="true" value="11,0" />
-      </dailyData>
-    </factor>
-    <factor id="binaryFeature:prox_sdkOrLibrary">
-      <dailyData date="12-02-2019">
-        <observation name="UNDEFINED" value="12,0" />
-        <observation name="false" value="44,0" />
-      </dailyData>
-      <dailyData date="14-02-2019">
-        <observation name="false" value="6,0" />
-      </dailyData>
-      <dailyData date="15-02-2019">
-        <observation name="false" value="2,0" />
-      </dailyData>
-      <dailyData date="18-02-2019">
-        <observation name="false" value="1,0" />
-      </dailyData>
-      <dailyData date="22-02-2019">
-        <observation name="false" value="5,0" />
-      </dailyData>
-      <dailyData date="25-02-2019">
-        <observation name="UNDEFINED" value="5,0" />
-        <observation name="false" value="43,0" />
-        <observation name="true" value="9,0" />
-      </dailyData>
-    </factor>
-    <factor id="binaryFeature:templates">
-      <dailyData date="12-02-2019">
-        <observation name="false" value="53,0" />
-        <observation name="true" value="3,0" />
-      </dailyData>
-      <dailyData date="14-02-2019">
-        <observation name="false" value="6,0" />
-      </dailyData>
-      <dailyData date="15-02-2019">
-        <observation name="false" value="2,0" />
-      </dailyData>
-      <dailyData date="18-02-2019">
-        <observation name="false" value="1,0" />
-      </dailyData>
-      <dailyData date="22-02-2019">
-        <observation name="false" value="5,0" />
-      </dailyData>
-      <dailyData date="25-02-2019">
-        <observation name="false" value="56,0" />
-        <observation name="true" value="1,0" />
-      </dailyData>
-    </factor>
-    <factor id="categoricalFeature:accessible">
-      <dailyData date="12-02-2019">
-        <observation name="NORMAL" value="36,0" />
-        <observation name="UNDEFINED" value="20,0" />
-      </dailyData>
-      <dailyData date="14-02-2019">
-        <observation name="NORMAL" value="6,0" />
-      </dailyData>
-      <dailyData date="15-02-2019">
-        <observation name="NORMAL" value="2,0" />
-      </dailyData>
-      <dailyData date="18-02-2019">
-        <observation name="NORMAL" value="1,0" />
-      </dailyData>
-      <dailyData date="22-02-2019">
-        <observation name="NORMAL" value="5,0" />
-      </dailyData>
-      <dailyData date="25-02-2019">
-        <observation name="NORMAL" value="52,0" />
-        <observation name="UNDEFINED" value="5,0" />
-      </dailyData>
-    </factor>
-    <factor id="categoricalFeature:expectedType">
-      <dailyData date="12-02-2019">
-        <observation name="UNDEFINED" value="20,0" />
-        <observation name="expected" value="5,0" />
-        <observation name="normal" value="31,0" />
-      </dailyData>
-      <dailyData date="14-02-2019">
-        <observation name="expected" value="4,0" />
-        <observation name="normal" value="2,0" />
-      </dailyData>
-      <dailyData date="15-02-2019">
-        <observation name="expected" value="2,0" />
-      </dailyData>
-      <dailyData date="18-02-2019">
-        <observation name="expected" value="1,0" />
-      </dailyData>
-      <dailyData date="22-02-2019">
-        <observation name="expected" value="4,0" />
-        <observation name="normal" value="1,0" />
-      </dailyData>
-      <dailyData date="25-02-2019">
-        <observation name="UNDEFINED" value="5,0" />
-        <observation name="expected" value="4,0" />
-        <observation name="normal" value="48,0" />
-      </dailyData>
-    </factor>
-    <factor id="categoricalFeature:kind">
-      <dailyData date="12-02-2019">
-        <observation name="UNDEFINED" value="20,0" />
-        <observation name="classNameOrGlobalStatic" value="5,0" />
-        <observation name="expectedTypeMethod" value="2,0" />
-        <observation name="normal" value="15,0" />
-        <observation name="probableKeyword" value="3,0" />
-        <observation name="suitableClass" value="11,0" />
-      </dailyData>
-      <dailyData date="14-02-2019">
-        <observation name="normal" value="5,0" />
-        <observation name="variable" value="1,0" />
-      </dailyData>
-      <dailyData date="15-02-2019">
-        <observation name="normal" value="2,0" />
-      </dailyData>
-      <dailyData date="18-02-2019">
-        <observation name="normal" value="1,0" />
-      </dailyData>
-      <dailyData date="22-02-2019">
-        <observation name="classNameOrGlobalStatic" value="4,0" />
-        <observation name="normal" value="1,0" />
-      </dailyData>
-      <dailyData date="25-02-2019">
-        <observation name="UNDEFINED" value="5,0" />
-        <observation name="classNameOrGlobalStatic" value="15,0" />
-        <observation name="expectedTypeVariable" value="4,0" />
-        <observation name="normal" value="22,0" />
-        <observation name="suitableClass" value="10,0" />
-        <observation name="variable" value="1,0" />
-      </dailyData>
-    </factor>
-    <factor id="categoricalFeature:prox_groovyReferenceListWeigher">
-      <dailyData date="12-02-2019">
-        <observation name="UNDEFINED" value="12,0" />
-        <observation name="unknown" value="44,0" />
-      </dailyData>
-      <dailyData date="14-02-2019">
-        <observation name="unknown" value="6,0" />
-      </dailyData>
-      <dailyData date="15-02-2019">
-        <observation name="unknown" value="2,0" />
-      </dailyData>
-      <dailyData date="18-02-2019">
-        <observation name="unknown" value="1,0" />
-      </dailyData>
-      <dailyData date="22-02-2019">
-        <observation name="unknown" value="5,0" />
-      </dailyData>
-      <dailyData date="25-02-2019">
-        <observation name="UNDEFINED" value="5,0" />
-        <observation name="unknown" value="52,0" />
-      </dailyData>
-    </factor>
-    <factor id="categoricalFeature:prox_javaInheritance">
-      <dailyData date="12-02-2019">
-        <observation name="UNDEFINED" value="12,0" />
-        <observation name="false" value="17,0" />
-        <observation name="null" value="26,0" />
-        <observation name="true" value="1,0" />
-      </dailyData>
-      <dailyData date="14-02-2019">
-        <observation name="null" value="6,0" />
-      </dailyData>
-      <dailyData date="15-02-2019">
-        <observation name="null" value="2,0" />
-      </dailyData>
-      <dailyData date="18-02-2019">
-        <observation name="null" value="1,0" />
-      </dailyData>
-      <dailyData date="22-02-2019">
-        <observation name="false" value="4,0" />
-        <observation name="null" value="1,0" />
-      </dailyData>
-      <dailyData date="25-02-2019">
-        <observation name="UNDEFINED" value="5,0" />
-        <observation name="false" value="25,0" />
-        <observation name="null" value="27,0" />
-      </dailyData>
-    </factor>
-    <factor id="categoricalFeature:prox_referenceList">
-      <dailyData date="12-02-2019">
-        <observation name="UNDEFINED" value="12,0" />
-        <observation name="applicableByKind" value="1,0" />
-        <observation name="unknown" value="43,0" />
-      </dailyData>
-      <dailyData date="14-02-2019">
-        <observation name="unknown" value="6,0" />
-      </dailyData>
-      <dailyData date="15-02-2019">
-        <observation name="unknown" value="2,0" />
-      </dailyData>
-      <dailyData date="18-02-2019">
-        <observation name="unknown" value="1,0" />
-      </dailyData>
-      <dailyData date="22-02-2019">
-        <observation name="unknown" value="5,0" />
-      </dailyData>
-      <dailyData date="25-02-2019">
-        <observation name="UNDEFINED" value="5,0" />
-        <observation name="applicableByKind" value="3,0" />
-        <observation name="unknown" value="49,0" />
-      </dailyData>
-    </factor>
-    <factor id="categoricalFeature:recursion">
-      <dailyData date="12-02-2019">
-        <observation name="UNDEFINED" value="38,0" />
-        <observation name="normal" value="18,0" />
-      </dailyData>
-      <dailyData date="14-02-2019">
-        <observation name="normal" value="6,0" />
-      </dailyData>
-      <dailyData date="15-02-2019">
-        <observation name="normal" value="2,0" />
-      </dailyData>
-      <dailyData date="18-02-2019">
-        <observation name="normal" value="1,0" />
-      </dailyData>
-      <dailyData date="22-02-2019">
-        <observation name="normal" value="5,0" />
-      </dailyData>
-      <dailyData date="25-02-2019">
-        <observation name="UNDEFINED" value="44,0" />
-        <observation name="normal" value="13,0" />
-      </dailyData>
-    </factor>
-    <factor id="completionFinishedType">
-      <dailyData date="12-02-2019">
-        <observation name="cancelled" value="264,0" />
-        <observation name="explicitSelect" value="41,0" />
-        <observation name="typedSelect" value="15,0" />
-      </dailyData>
-      <dailyData date="14-02-2019">
-        <observation name="cancelled" value="1,0" />
-        <observation name="explicitSelect" value="6,0" />
-        <observation name="typedSelect" value="1,0" />
-      </dailyData>
-      <dailyData date="15-02-2019">
-        <observation name="explicitSelect" value="2,0" />
-      </dailyData>
-      <dailyData date="18-02-2019">
-        <observation name="explicitSelect" value="1,0" />
-      </dailyData>
-      <dailyData date="19-02-2019">
-        <observation name="cancelled" value="1,0" />
-      </dailyData>
-      <dailyData date="22-02-2019">
-        <observation name="cancelled" value="20,0" />
-        <observation name="explicitSelect" value="10,0" />
-        <observation name="typedSelect" value="1,0" />
-      </dailyData>
-      <dailyData date="25-02-2019">
-        <observation name="cancelled" value="733,0" />
-        <observation name="explicitSelect" value="51,0" />
-        <observation name="typedSelect" value="7,0" />
-      </dailyData>
-    </factor>
-    <factor id="completionType">
-      <dailyData date="12-02-2019">
-        <observation name="BASIC" value="65,0" />
-      </dailyData>
-      <dailyData date="14-02-2019">
-        <observation name="BASIC" value="6,0" />
-      </dailyData>
-      <dailyData date="15-02-2019">
-        <observation name="BASIC" value="2,0" />
-      </dailyData>
-      <dailyData date="18-02-2019">
-        <observation name="BASIC" value="1,0" />
-      </dailyData>
-      <dailyData date="22-02-2019">
-        <observation name="BASIC" value="9,0" />
-      </dailyData>
-      <dailyData date="25-02-2019">
-        <observation name="BASIC" value="77,0" />
-      </dailyData>
-    </factor>
-    <factor id="completionUsage">
-      <dailyData date="12-02-2019">
-        <observation name="count" value="320,0" />
-      </dailyData>
-      <dailyData date="14-02-2019">
-        <observation name="count" value="8,0" />
-      </dailyData>
-      <dailyData date="15-02-2019">
-        <observation name="count" value="2,0" />
-      </dailyData>
-      <dailyData date="18-02-2019">
-        <observation name="count" value="1,0" />
-      </dailyData>
-      <dailyData date="19-02-2019">
-        <observation name="count" value="1,0" />
-      </dailyData>
-      <dailyData date="22-02-2019">
-        <observation name="count" value="31,0" />
-      </dailyData>
-      <dailyData date="25-02-2019">
-        <observation name="count" value="791,0" />
-      </dailyData>
-    </factor>
-    <factor id="doubleFeature:explicitProximity">
-      <dailyData date="12-02-2019">
-        <observation name="average" value="0,018018" />
-        <observation name="count" value="111,0" />
-        <observation name="max" value="1,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,015243" />
-      </dailyData>
-      <dailyData date="14-02-2019">
-        <observation name="average" value="0,545455" />
-        <observation name="count" value="11,0" />
-        <observation name="max" value="1,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,129453" />
-      </dailyData>
-      <dailyData date="15-02-2019">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="3,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="18-02-2019">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="1,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="22-02-2019">
-        <observation name="average" value="0,444444" />
-        <observation name="count" value="9,0" />
-        <observation name="max" value="1,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,116241" />
-      </dailyData>
-      <dailyData date="25-02-2019">
-        <observation name="average" value="0,017699" />
-        <observation name="count" value="113,0" />
-        <observation name="max" value="1,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,009105" />
-      </dailyData>
-    </factor>
-    <factor id="doubleFeature:grouping">
-      <dailyData date="12-02-2019">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="111,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="14-02-2019">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="11,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="15-02-2019">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="3,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="18-02-2019">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="1,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="22-02-2019">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="9,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="25-02-2019">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="113,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-    </factor>
-    <factor id="doubleFeature:mostUsed">
-      <dailyData date="12-02-2019">
-        <observation name="UNDEFINED" value="34,0" />
-        <observation name="average" value="-9,418605" />
-        <observation name="count" value="43,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="-57,0" />
-        <observation name="variance" value="210,004419" />
-      </dailyData>
-      <dailyData date="14-02-2019">
-        <observation name="UNDEFINED" value="2,0" />
-        <observation name="average" value="-16,142857" />
-        <observation name="count" value="7,0" />
-        <observation name="max" value="-1,0" />
-        <observation name="min" value="-28,0" />
-        <observation name="variance" value="71,178639" />
-      </dailyData>
-      <dailyData date="15-02-2019">
-        <observation name="average" value="-1,0" />
-        <observation name="count" value="3,0" />
-        <observation name="max" value="-1,0" />
-        <observation name="min" value="-1,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="18-02-2019">
-        <observation name="average" value="-1,0" />
-        <observation name="count" value="1,0" />
-        <observation name="max" value="-1,0" />
-        <observation name="min" value="-1,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="22-02-2019">
-        <observation name="UNDEFINED" value="2,0" />
-        <observation name="average" value="-35,2" />
-        <observation name="count" value="5,0" />
-        <observation name="max" value="-4,0" />
-        <observation name="min" value="-56,0" />
-        <observation name="variance" value="228,337778" />
-      </dailyData>
-      <dailyData date="25-02-2019">
-        <observation name="UNDEFINED" value="32,0" />
-        <observation name="average" value="-24,122449" />
-        <observation name="count" value="49,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="-92,0" />
-        <observation name="variance" value="429,89105" />
-      </dailyData>
-    </factor>
-    <factor id="doubleFeature:nameEnd">
-      <dailyData date="12-02-2019">
-        <observation name="UNDEFINED" value="20,0" />
-        <observation name="average" value="-0,028169" />
-        <observation name="count" value="71,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="-1,0" />
-        <observation name="variance" value="0,022848" />
-      </dailyData>
-      <dailyData date="14-02-2019">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="11,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="15-02-2019">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="3,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="18-02-2019">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="1,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="22-02-2019">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="9,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="25-02-2019">
-        <observation name="UNDEFINED" value="5,0" />
-        <observation name="average" value="-0,058252" />
-        <observation name="count" value="103,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="-1,0" />
-        <observation name="variance" value="0,02793" />
-      </dailyData>
-    </factor>
-    <factor id="doubleFeature:position">
-      <dailyData date="12-02-2019">
-        <observation name="average" value="0,252252" />
-        <observation name="count" value="111,0" />
-        <observation name="max" value="4,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,378298" />
-      </dailyData>
-      <dailyData date="14-02-2019">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="11,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="15-02-2019">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="3,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="18-02-2019">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="1,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="22-02-2019">
-        <observation name="average" value="4,555556" />
-        <observation name="count" value="9,0" />
-        <observation name="max" value="16,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="18,047499" />
-      </dailyData>
-      <dailyData date="25-02-2019">
-        <observation name="average" value="0,725664" />
-        <observation name="count" value="113,0" />
-        <observation name="max" value="9,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="3,788179" />
-      </dailyData>
-    </factor>
-    <factor id="doubleFeature:prefix">
-      <dailyData date="12-02-2019">
-        <observation name="average" value="-914,261261" />
-        <observation name="count" value="111,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="-1204,0" />
-        <observation name="variance" value="99691,252362" />
-      </dailyData>
-      <dailyData date="14-02-2019">
-        <observation name="average" value="-747,454545" />
-        <observation name="count" value="11,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="-1204,0" />
-        <observation name="variance" value="167594,399944" />
-      </dailyData>
-      <dailyData date="15-02-2019">
-        <observation name="average" value="-1204,0" />
-        <observation name="count" value="3,0" />
-        <observation name="max" value="-1204,0" />
-        <observation name="min" value="-1204,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="18-02-2019">
-        <observation name="average" value="-1204,0" />
-        <observation name="count" value="1,0" />
-        <observation name="max" value="-1204,0" />
-        <observation name="min" value="-1204,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="22-02-2019">
-        <observation name="average" value="-584,666667" />
-        <observation name="count" value="9,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="-1053,0" />
-        <observation name="variance" value="128752,694346" />
-      </dailyData>
-      <dailyData date="25-02-2019">
-        <observation name="average" value="-966,973451" />
-        <observation name="count" value="113,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="-1153,0" />
-        <observation name="variance" value="115508,776407" />
-      </dailyData>
-    </factor>
-    <factor id="doubleFeature:priority">
-      <dailyData date="12-02-2019">
-        <observation name="average" value="1,279279" />
-        <observation name="count" value="111,0" />
-        <observation name="max" value="70,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="48,39474" />
-      </dailyData>
-      <dailyData date="14-02-2019">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="11,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="15-02-2019">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="3,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="18-02-2019">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="1,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="22-02-2019">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="9,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="25-02-2019">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="113,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-    </factor>
-    <factor id="doubleFeature:prox_explicitlyImported">
-      <dailyData date="12-02-2019">
-        <observation name="UNDEFINED" value="12,0" />
-        <observation name="average" value="31,034483" />
-        <observation name="count" value="87,0" />
-        <observation name="max" value="200,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="1828,581866" />
-      </dailyData>
-      <dailyData date="14-02-2019">
-        <observation name="average" value="109,090909" />
-        <observation name="count" value="11,0" />
-        <observation name="max" value="300,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="8224,14206" />
-      </dailyData>
-      <dailyData date="15-02-2019">
-        <observation name="average" value="200,0" />
-        <observation name="count" value="3,0" />
-        <observation name="max" value="200,0" />
-        <observation name="min" value="200,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="18-02-2019">
-        <observation name="average" value="200,0" />
-        <observation name="count" value="1,0" />
-        <observation name="max" value="200,0" />
-        <observation name="min" value="200,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="22-02-2019">
-        <observation name="average" value="16,666667" />
-        <observation name="count" value="9,0" />
-        <observation name="max" value="50,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="263,595994" />
-      </dailyData>
-      <dailyData date="25-02-2019">
-        <observation name="UNDEFINED" value="5,0" />
-        <observation name="average" value="66,019417" />
-        <observation name="count" value="103,0" />
-        <observation name="max" value="300,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="5840,216899" />
-      </dailyData>
-    </factor>
-    <factor id="doubleFeature:prox_knownElement">
-      <dailyData date="12-02-2019">
-        <observation name="UNDEFINED" value="12,0" />
-        <observation name="average" value="0,022989" />
-        <observation name="count" value="87,0" />
-        <observation name="max" value="1,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,018135" />
-      </dailyData>
-      <dailyData date="14-02-2019">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="11,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="15-02-2019">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="3,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="18-02-2019">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="1,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="22-02-2019">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="9,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="25-02-2019">
-        <observation name="UNDEFINED" value="5,0" />
-        <observation name="average" value="1,417476" />
-        <observation name="count" value="103,0" />
-        <observation name="max" value="8,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="5,915747" />
-      </dailyData>
-    </factor>
-    <factor id="doubleFeature:prox_sameModule">
-      <dailyData date="12-02-2019">
-        <observation name="UNDEFINED" value="12,0" />
-        <observation name="average" value="0,413793" />
-        <observation name="count" value="87,0" />
-        <observation name="max" value="2,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,497806" />
-      </dailyData>
-      <dailyData date="14-02-2019">
-        <observation name="average" value="0,909091" />
-        <observation name="count" value="11,0" />
-        <observation name="max" value="2,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,517813" />
-      </dailyData>
-      <dailyData date="15-02-2019">
-        <observation name="average" value="2,0" />
-        <observation name="count" value="3,0" />
-        <observation name="max" value="2,0" />
-        <observation name="min" value="2,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="18-02-2019">
-        <observation name="average" value="2,0" />
-        <observation name="count" value="1,0" />
-        <observation name="max" value="2,0" />
-        <observation name="min" value="2,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="22-02-2019">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="9,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="25-02-2019">
-        <observation name="UNDEFINED" value="5,0" />
-        <observation name="average" value="0,427184" />
-        <observation name="count" value="103,0" />
-        <observation name="max" value="2,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,533312" />
-      </dailyData>
-    </factor>
-    <factor id="doubleFeature:prox_samePsiMember">
-      <dailyData date="12-02-2019">
-        <observation name="UNDEFINED" value="12,0" />
-        <observation name="average" value="0,0" />
-        <observation name="count" value="87,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="14-02-2019">
-        <observation name="average" value="0,363636" />
-        <observation name="count" value="11,0" />
-        <observation name="max" value="2,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,313606" />
-      </dailyData>
-      <dailyData date="15-02-2019">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="3,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="18-02-2019">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="1,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="22-02-2019">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="9,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="25-02-2019">
-        <observation name="UNDEFINED" value="5,0" />
-        <observation name="average" value="0,23301" />
-        <observation name="count" value="103,0" />
-        <observation name="max" value="2,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,25737" />
-      </dailyData>
-    </factor>
-    <factor id="doubleFeature:query_length">
-      <dailyData date="12-02-2019">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="111,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="14-02-2019">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="11,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="15-02-2019">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="3,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="18-02-2019">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="1,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="22-02-2019">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="9,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="25-02-2019">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="113,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-    </factor>
-    <factor id="doubleFeature:result_length">
-      <dailyData date="12-02-2019">
-        <observation name="average" value="5,36036" />
-        <observation name="count" value="111,0" />
-        <observation name="max" value="22,0" />
-        <observation name="min" value="1,0" />
-        <observation name="variance" value="21,914333" />
-      </dailyData>
-      <dailyData date="14-02-2019">
-        <observation name="average" value="5,0" />
-        <observation name="count" value="11,0" />
-        <observation name="max" value="8,0" />
-        <observation name="min" value="2,0" />
-        <observation name="variance" value="1,738528" />
-      </dailyData>
-      <dailyData date="15-02-2019">
-        <observation name="average" value="5,0" />
-        <observation name="count" value="3,0" />
-        <observation name="max" value="5,0" />
-        <observation name="min" value="5,0" />
-        <observation name="variance" value="-0,0" />
-      </dailyData>
-      <dailyData date="18-02-2019">
-        <observation name="average" value="5,0" />
-        <observation name="count" value="1,0" />
-        <observation name="max" value="5,0" />
-        <observation name="min" value="5,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="22-02-2019">
-        <observation name="average" value="4,888889" />
-        <observation name="count" value="9,0" />
-        <observation name="max" value="7,0" />
-        <observation name="min" value="2,0" />
-        <observation name="variance" value="2,227605" />
-      </dailyData>
-      <dailyData date="25-02-2019">
-        <observation name="average" value="5,725664" />
-        <observation name="count" value="113,0" />
-        <observation name="max" value="27,0" />
-        <observation name="min" value="1,0" />
-        <observation name="variance" value="10,440682" />
-      </dailyData>
-    </factor>
-    <factor id="doubleFeature:sameWords">
-      <dailyData date="12-02-2019">
-        <observation name="UNDEFINED" value="20,0" />
-        <observation name="average" value="-0,028169" />
-        <observation name="count" value="71,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="-1,0" />
-        <observation name="variance" value="0,022848" />
-      </dailyData>
-      <dailyData date="14-02-2019">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="11,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="15-02-2019">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="3,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="18-02-2019">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="1,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="22-02-2019">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="9,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="25-02-2019">
-        <observation name="UNDEFINED" value="5,0" />
-        <observation name="average" value="-0,058252" />
-        <observation name="count" value="103,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="-1,0" />
-        <observation name="variance" value="0,02793" />
-      </dailyData>
-    </factor>
-    <factor id="doubleFeature:shorter">
-      <dailyData date="12-02-2019">
-        <observation name="UNDEFINED" value="20,0" />
-        <observation name="average" value="-28,112676" />
-        <observation name="count" value="71,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="-998,0" />
-        <observation name="variance" value="22756,950716" />
-      </dailyData>
-      <dailyData date="14-02-2019">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="11,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="15-02-2019">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="3,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="18-02-2019">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="1,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="22-02-2019">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="9,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="25-02-2019">
-        <observation name="UNDEFINED" value="5,0" />
-        <observation name="average" value="-58,194175" />
-        <observation name="count" value="103,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="-999,0" />
-        <observation name="variance" value="27874,103257" />
-      </dailyData>
-    </factor>
-    <factor id="doubleFeature:simple">
-      <dailyData date="12-02-2019">
-        <observation name="UNDEFINED" value="20,0" />
-        <observation name="average" value="0,0" />
-        <observation name="count" value="71,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="14-02-2019">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="11,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="15-02-2019">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="3,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="18-02-2019">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="1,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="22-02-2019">
-        <observation name="average" value="0,0" />
-        <observation name="count" value="9,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="25-02-2019">
-        <observation name="UNDEFINED" value="5,0" />
-        <observation name="average" value="0,0" />
-        <observation name="count" value="103,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-    </factor>
-    <factor id="doubleFeature:sorter">
-      <dailyData date="12-02-2019">
-        <observation name="average" value="1,0" />
-        <observation name="count" value="111,0" />
-        <observation name="max" value="1,0" />
-        <observation name="min" value="1,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="14-02-2019">
-        <observation name="average" value="1,0" />
-        <observation name="count" value="11,0" />
-        <observation name="max" value="1,0" />
-        <observation name="min" value="1,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="15-02-2019">
-        <observation name="average" value="1,0" />
-        <observation name="count" value="3,0" />
-        <observation name="max" value="1,0" />
-        <observation name="min" value="1,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="18-02-2019">
-        <observation name="average" value="1,0" />
-        <observation name="count" value="1,0" />
-        <observation name="max" value="1,0" />
-        <observation name="min" value="1,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="22-02-2019">
-        <observation name="average" value="1,0" />
-        <observation name="count" value="9,0" />
-        <observation name="max" value="1,0" />
-        <observation name="min" value="1,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="25-02-2019">
-        <observation name="average" value="1,0" />
-        <observation name="count" value="113,0" />
-        <observation name="max" value="1,0" />
-        <observation name="min" value="1,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-    </factor>
-    <factor id="doubleFeature:statics">
-      <dailyData date="12-02-2019">
-        <observation name="UNDEFINED" value="36,0" />
-        <observation name="average" value="-3,205128" />
-        <observation name="count" value="39,0" />
-        <observation name="max" value="-3,0" />
-        <observation name="min" value="-5,0" />
-        <observation name="variance" value="0,270379" />
-      </dailyData>
-      <dailyData date="14-02-2019">
-        <observation name="UNDEFINED" value="3,0" />
-        <observation name="average" value="-5,0" />
-        <observation name="count" value="5,0" />
-        <observation name="max" value="-5,0" />
-        <observation name="min" value="-5,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="15-02-2019">
-        <observation name="average" value="-5,0" />
-        <observation name="count" value="3,0" />
-        <observation name="max" value="-5,0" />
-        <observation name="min" value="-5,0" />
-        <observation name="variance" value="-0,0" />
-      </dailyData>
-      <dailyData date="18-02-2019">
-        <observation name="average" value="-5,0" />
-        <observation name="count" value="1,0" />
-        <observation name="max" value="-5,0" />
-        <observation name="min" value="-5,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="22-02-2019">
-        <observation name="UNDEFINED" value="4,0" />
-        <observation name="average" value="-3,0" />
-        <observation name="count" value="1,0" />
-        <observation name="max" value="-3,0" />
-        <observation name="min" value="-3,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="25-02-2019">
-        <observation name="UNDEFINED" value="18,0" />
-        <observation name="average" value="-3,0" />
-        <observation name="count" value="77,0" />
-        <observation name="max" value="-3,0" />
-        <observation name="min" value="-3,0" />
-        <observation name="variance" value="-0,0" />
-      </dailyData>
-    </factor>
-    <factor id="doubleFeature:stats">
-      <dailyData date="12-02-2019">
-        <observation name="average" value="4682,378378" />
-        <observation name="count" value="111,0" />
-        <observation name="max" value="10000,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="19240799,581186" />
-      </dailyData>
-      <dailyData date="14-02-2019">
-        <observation name="average" value="5454,363636" />
-        <observation name="count" value="11,0" />
-        <observation name="max" value="10000,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="12905863,046355" />
-      </dailyData>
-      <dailyData date="15-02-2019">
-        <observation name="average" value="9999,0" />
-        <observation name="count" value="3,0" />
-        <observation name="max" value="9999,0" />
-        <observation name="min" value="9999,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="18-02-2019">
-        <observation name="average" value="9999,0" />
-        <observation name="count" value="1,0" />
-        <observation name="max" value="9999,0" />
-        <observation name="min" value="9999,0" />
-        <observation name="variance" value="0,0" />
-      </dailyData>
-      <dailyData date="22-02-2019">
-        <observation name="average" value="4444,444444" />
-        <observation name="count" value="9,0" />
-        <observation name="max" value="10000,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="11924540,186445" />
-      </dailyData>
-      <dailyData date="25-02-2019">
-        <observation name="average" value="4332,99115" />
-        <observation name="count" value="113,0" />
-        <observation name="max" value="10000,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="20066290,06958" />
-      </dailyData>
-    </factor>
-    <factor id="itemPosition">
-      <dailyData date="12-02-2019">
-        <observation name="0" value="32,0" />
-        <observation name="1" value="6,0" />
-        <observation name="2" value="2,0" />
-        <observation name="4" value="1,0" />
-      </dailyData>
-      <dailyData date="14-02-2019">
-        <observation name="0" value="6,0" />
-      </dailyData>
-      <dailyData date="15-02-2019">
-        <observation name="0" value="2,0" />
-      </dailyData>
-      <dailyData date="18-02-2019">
-        <observation name="0" value="1,0" />
-      </dailyData>
-      <dailyData date="22-02-2019">
-        <observation name="0" value="6,0" />
-        <observation name="1" value="1,0" />
-        <observation name="16" value="1,0" />
-        <observation name="2" value="2,0" />
-      </dailyData>
-      <dailyData date="25-02-2019">
-        <observation name="0" value="42,0" />
-        <observation name="1" value="3,0" />
-        <observation name="2" value="1,0" />
-        <observation name="5" value="1,0" />
-        <observation name="7" value="2,0" />
-        <observation name="8" value="1,0" />
-        <observation name="9" value="1,0" />
-      </dailyData>
-    </factor>
-    <factor id="mnemonicsUsage">
-      <dailyData date="12-02-2019">
-        <observation name="total" value="19,0" />
-        <observation name="withMnemonics" value="2,0" />
-      </dailyData>
-      <dailyData date="14-02-2019">
-        <observation name="total" value="3,0" />
-        <observation name="withMnemonics" value="0,0" />
-      </dailyData>
-      <dailyData date="15-02-2019">
-        <observation name="total" value="2,0" />
-        <observation name="withMnemonics" value="0,0" />
-      </dailyData>
-      <dailyData date="18-02-2019">
-        <observation name="total" value="1,0" />
-        <observation name="withMnemonics" value="0,0" />
-      </dailyData>
-      <dailyData date="22-02-2019">
-        <observation name="total" value="1,0" />
-        <observation name="withMnemonics" value="0,0" />
-      </dailyData>
-      <dailyData date="25-02-2019">
-        <observation name="total" value="38,0" />
-        <observation name="withMnemonics" value="2,0" />
-      </dailyData>
-    </factor>
-    <factor id="prefixLength">
-      <dailyData date="12-02-2019">
-        <observation name="0" value="9,0" />
-        <observation name="1" value="13,0" />
-        <observation name="11" value="1,0" />
-        <observation name="2" value="8,0" />
-        <observation name="3" value="5,0" />
-        <observation name="4" value="2,0" />
-        <observation name="5" value="1,0" />
-        <observation name="6" value="1,0" />
-        <observation name="7" value="1,0" />
-      </dailyData>
-      <dailyData date="14-02-2019">
-        <observation name="0" value="3,0" />
-        <observation name="2" value="1,0" />
-        <observation name="5" value="2,0" />
-      </dailyData>
-      <dailyData date="15-02-2019">
-        <observation name="5" value="2,0" />
-      </dailyData>
-      <dailyData date="18-02-2019">
-        <observation name="5" value="1,0" />
-      </dailyData>
-      <dailyData date="22-02-2019">
-        <observation name="0" value="8,0" />
-        <observation name="1" value="1,0" />
-        <observation name="2" value="1,0" />
-      </dailyData>
-      <dailyData date="25-02-2019">
-        <observation name="0" value="8,0" />
-        <observation name="1" value="5,0" />
-        <observation name="2" value="17,0" />
-        <observation name="3" value="11,0" />
-        <observation name="4" value="8,0" />
-        <observation name="5" value="1,0" />
-        <observation name="6" value="1,0" />
-      </dailyData>
-    </factor>
-    <factor id="timeBetweenTyping">
-      <dailyData date="12-02-2019">
-        <observation name="average" value="707,655172" />
-        <observation name="count" value="58,0" />
-      </dailyData>
-      <dailyData date="25-02-2019">
-        <observation name="average" value="760,192771" />
-        <observation name="count" value="83,0" />
-      </dailyData>
-    </factor>
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1722,7 +319,17 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="WebTests" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="bdd" type="462c0819:PsiDirectoryNode" />
+              <item name="agentStatement" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CucumberARM4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CucumberARM4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="WebTests" type="462c0819:PsiDirectoryNode" />
+              <item name="testsJava" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CucumberARM4" type="b2602c69:ProjectViewProjectNode" />
@@ -1743,19 +350,26 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551162312481" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551190889484" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../arm4-autotest/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/bdd/agentStatement" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\AutoTesting\Develop\java_pft\arm4\CucumberARM4\src\test\resources\bdd\agentStatement" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ru.rgs.WebTests.bdd.agentStatement" />
+      <recent name="ru.rgs.WebTests.bdd" />
       <recent name="ru.rgs.WebTests" />
       <recent name="ru.rgs.WebTests.tests" />
     </key>
@@ -1779,7 +393,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Feature: createOA">
+  <component name="RunManager" selected="Cucumber java.Feature: createOA (1)">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -1788,6 +402,24 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: createOA (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/bdd/agentStatement/createOA.feature" />
+      <option name="GLUE" value="ru.rgs.WebTests" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="CucumberARM4" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: createOA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -1846,33 +478,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OaDel" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="OaDelRun" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="CucumberARM4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.rgs.WebTests.bdd.*" />
+          <option name="PATTERN" value="ru.rgs.WebTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.rgs.WebTests.bdd" />
-      <option name="MAIN_CLASS_NAME" value="ru.rgs.WebTests.bdd.OaDel" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OaTestsRun" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="CucumberARM4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.testng.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.rgs.WebTests.bdd" />
-      <option name="MAIN_CLASS_NAME" value="ru.rgs.WebTests.bdd.OaTestsRun" />
+      <option name="MAIN_CLASS_NAME" value="ru.rgs.WebTests.bdd.agentStatement.OaDelRun" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
       <listeners />
@@ -1899,11 +514,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Feature: createOA (1)" />
+        <item itemvalue="TestNG.D:/AutoTesting/Develop/java_pft/arm4/CucumberARM4/src/test/resources/testng.xml" />
         <item itemvalue="Cucumber java.Feature: createOA" />
         <item itemvalue="Cucumber java.Feature: delOA" />
-        <item itemvalue="TestNG.OaDel" />
-        <item itemvalue="TestNG.OaTestsRun" />
-        <item itemvalue="TestNG.D:/AutoTesting/Develop/java_pft/arm4/CucumberARM4/src/test/resources/testng.xml" />
+        <item itemvalue="TestNG.OaDelRun" />
       </list>
     </recent_temporary>
   </component>
@@ -1921,42 +536,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OaTestsRun - 2019.02.25 at 17h 51m 38s.xml">
-      <configuration name="OaTestsRun" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Feature__delOA - 2019.02.25 at 17h 55m 42s.xml">
-      <configuration name="Feature: delOA" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__delOA - 2019.02.25 at 18h 00m 59s.xml">
-      <configuration name="Feature: delOA" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__delOA - 2019.02.25 at 18h 03m 06s.xml">
-      <configuration name="Feature: delOA" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="OaDel - 2019.02.25 at 18h 03m 28s.xml">
-      <configuration name="OaDel" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="OaDel - 2019.02.25 at 18h 04m 56s.xml">
-      <configuration name="OaDel" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Feature__createOA - 2019.02.25 at 18h 05m 35s.xml">
+    <history-entry file="Feature__createOA - 2019.02.26 at 15h 11m 38s.xml">
       <configuration name="Feature: createOA" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__delOA - 2019.02.25 at 18h 06m 06s.xml">
-      <configuration name="Feature: delOA" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="D__AutoTesting_Develop_java_pft_arm4_CucumberARM4_src_test_resources_testng_xml - 2019.02.26 at 15h 41m 40s.xml">
+      <configuration name="D:/AutoTesting/Develop/java_pft/arm4/CucumberARM4/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Feature__delOA - 2019.02.26 at 09h 22m 39s.xml">
-      <configuration name="Feature: delOA" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="D__AutoTesting_Develop_java_pft_arm4_CucumberARM4_src_test_resources_testng_xml - 2019.02.26 at 15h 43m 08s.xml">
+      <configuration name="D:/AutoTesting/Develop/java_pft/arm4/CucumberARM4/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Feature__createOA - 2019.02.26 at 09h 23m 31s.xml">
-      <configuration name="Feature: createOA" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="D__AutoTesting_Develop_java_pft_arm4_CucumberARM4_src_test_resources_testng_xml - 2019.02.26 at 15h 46m 41s.xml">
+      <configuration name="D:/AutoTesting/Develop/java_pft/arm4/CucumberARM4/src/test/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__AutoTesting_Develop_java_pft_arm4_CucumberARM4_src_test_resources_testng_xml - 2019.02.26 at 15h 48m 22s.xml">
+      <configuration name="D:/AutoTesting/Develop/java_pft/arm4/CucumberARM4/src/test/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__AutoTesting_Develop_java_pft_arm4_CucumberARM4_src_test_resources_testng_xml - 2019.02.26 at 15h 49m 37s.xml">
+      <configuration name="D:/AutoTesting/Develop/java_pft/arm4/CucumberARM4/src/test/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__AutoTesting_Develop_java_pft_arm4_CucumberARM4_src_test_resources_testng_xml - 2019.02.26 at 15h 50m 39s.xml">
+      <configuration name="D:/AutoTesting/Develop/java_pft/arm4/CucumberARM4/src/test/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__AutoTesting_Develop_java_pft_arm4_CucumberARM4_src_test_resources_testng_xml - 2019.02.26 at 15h 52m 19s.xml">
+      <configuration name="D:/AutoTesting/Develop/java_pft/arm4/CucumberARM4/src/test/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__AutoTesting_Develop_java_pft_arm4_CucumberARM4_src_test_resources_testng_xml - 2019.02.26 at 16h 03m 45s.xml">
+      <configuration name="D:/AutoTesting/Develop/java_pft/arm4/CucumberARM4/src/test/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Feature__createOA_(1) - 2019.02.26 at 16h 04m 45s.xml">
+      <configuration name="Feature: createOA (1)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15991472" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16263238" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1968,21 +583,21 @@
       <window_info id="Job Explorer" order="9" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4977307" visible="true" weight="0.36" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.42180094" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978678" weight="0.31555554" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.47867298" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50226927" side_tool="true" weight="0.4387755" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5021322" side_tool="true" weight="0.31555554" />
       <window_info anchor="bottom" id="Console" order="10" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49840087" weight="0.72444445" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3288889" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.1945629" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.27382752" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
@@ -2102,28 +717,50 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/tests/AddAgentStatement.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/testsJava/AddAgentStatement.java</url>
           <line>26</line>
           <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/Login.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/Login.java</url>
           <line>41</line>
           <properties />
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/CreateOa.java</url>
-          <line>104</line>
-          <properties />
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/DelAgentStatement.java</url>
-          <line>108</line>
+          <url>file://$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/agentStatement/DelAgentStatement.java</url>
+          <line>120</line>
           <properties />
           <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/agentStatement/CreateOa.java</url>
+          <line>115</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/agentStatement/DelAgentStatement.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/TestBase.java</url>
+          <line>58</line>
+          <properties class="ru.rgs.WebTests.TestBase" method="login">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/TestBase.java</url>
+          <line>30</line>
+          <properties class="ru.rgs.WebTests.TestBase" method="setUp">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="49" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -2133,23 +770,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/annotations/ITestAnnotation.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="61" column="7" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/ITestNGListener.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#164#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/IAttributes.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -2174,13 +794,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="78" column="58" selection-start-line="78" selection-start-column="58" selection-end-line="78" selection-end-column="58" />
         </state>
       </provider>
     </entry>
@@ -2224,19 +837,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/target/site/allure-maven-plugin/index.html" />
-    <entry file="file://$PROJECT_DIR$/target/site/allure-maven-plugin/allure-maven.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/allure.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="34" selection-start-column="34" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/allure-results/allure.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/target/site/allure-maven-plugin/allure-maven.html" />
+    <entry file="file://$PROJECT_DIR$/target/allure-results/allure.properties" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/TakesScreenshot.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -2281,7 +883,7 @@
         <state relative-caret-position="-3555" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/tests/AddAgentStatement.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/testsJava/AddAgentStatement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="34" selection-start-line="34" selection-end-line="34" />
@@ -2305,29 +907,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/replay_pid22264.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1173" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="19" column="44" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/replay_pid22264.log" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar!/org/openqa/selenium/remote/RemoteWebDriver.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
           <caret line="253" selection-start-line="253" selection-end-line="253" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/runtime/Timeout.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
@@ -2345,18 +929,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/runtime/Utils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="e#1283#2067#0" expanded="true" />
-            <element signature="e#2066#2067#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/tests/logInJava.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/testsJava/logInJava.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
@@ -2370,17 +943,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="108" selection-start-line="108" selection-end-line="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2413,13 +975,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="61" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/bdd/login.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -2444,14 +999,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-testng/1.2.5/cucumber-testng-1.2.5.jar!/cucumber/api/testng/AbstractTestNGCucumberTests.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/tests/DelAgentStatement.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/testsJava/DelAgentStatement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-443">
           <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
@@ -2461,69 +1009,155 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/TestBase.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/Login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="64" column="59" lean-forward="true" selection-start-line="64" selection-start-column="59" selection-end-line="64" selection-end-column="59" />
+        <state relative-caret-position="9">
+          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2528#2529#0" expanded="true" />
-            <element signature="e#2601#2602#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/DelAgentStatement.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/runtime/Timeout.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="119" column="1" lean-forward="true" selection-start-line="119" selection-start-column="1" selection-end-line="119" selection-end-column="1" />
+        <state relative-caret-position="204">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/runtime/RuntimeOptions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="299" selection-start-line="299" selection-end-line="299" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/runtime/Utils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1283#2067#0" expanded="true" />
+            <element signature="e#2066#2067#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/CreateOa.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar!/cucumber/runtime/java/DefaultJavaObjectFactory.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="104" column="6" selection-start-line="104" selection-start-column="6" selection-end-line="111" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="94">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/OaTestsRun.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar!/cucumber/runtime/java/JavaStepDefinition.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="408">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/bdd/delOA.feature">
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-testng/1.2.5/cucumber-testng-1.2.5.jar!/cucumber/api/testng/AbstractTestNGCucumberTests.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/bdd/agentStatement/delOA.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/bdd/createOA.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/agentStatement/OaDelRun.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/OaDel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="68">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/bdd/agentStatement/createOA.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/allure.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="52" column="2" selection-start-line="52" selection-start-column="2" selection-end-line="52" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1350#1351#0" expanded="true" />
+            <element signature="e#1381#1382#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/agentStatement/OaTestsRun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="2" selection-start-line="7" selection-end-line="7" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/agentStatement/CreateOa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/rgs/WebTests/bdd/agentStatement/DelAgentStatement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="81" column="12" selection-start-line="81" selection-start-column="12" selection-end-line="81" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>

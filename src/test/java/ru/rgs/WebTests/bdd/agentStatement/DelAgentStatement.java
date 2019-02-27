@@ -1,17 +1,18 @@
-package ru.rgs.WebTests.bdd;
+package ru.rgs.WebTests.bdd.agentStatement;
 
 
 import cucumber.api.java.Before;
 import cucumber.api.java.ru.И;
 import cucumber.api.java.ru.Когда;
 import cucumber.api.java.ru.Тогда;
+import io.qameta.allure.Feature;
 import io.qameta.allure.Step;
 import io.qameta.allure.Story;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import ru.rgs.WebTests.TestBase;
-
+@Feature("Отчет агента")
 @Story("ОА")
 public class DelAgentStatement extends TestBase {
 
@@ -23,7 +24,18 @@ public class DelAgentStatement extends TestBase {
   @Step("открываем списочную ОА")
   @Когда("^открываем списочную ОА$")
   public void openList() throws Exception {
-    preCondition();
+    if(wd == null) {
+      TestBase.setUp();
+    }
+    Thread.sleep(300);
+    String currentUrl = wd.getCurrentUrl();
+    /*log(currentUrl);*/
+    if (!currentUrl.equals("http://arm4-test3-web.tengry.com/armweb/private/index.jsp")) {
+      login();
+    }
+    Thread.sleep(300);
+    wd.navigate().refresh();
+    wd.manage().window().maximize();
     WebDriverWait wait = new WebDriverWait(wd, 10);
     wd.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Поиск'])[1]/following::span[1]")).click();
 

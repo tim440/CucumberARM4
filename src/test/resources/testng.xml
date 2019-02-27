@@ -6,33 +6,18 @@
     </listeners>
     <!--<test name="remove">
             <classes>
-                <class name="ru.rgs.APITests.tests.agentStatement.RemoveAgentStatementNoDelTests"/>
-                <class name="ru.rgs.APITests.tests.agentStatement.RemoveAgentStatementTests"/>
-                <class name="ru.rgs.APITests.tests.contracts.osago.RemoveOsagoTests"/>
-                <class name="ru.rgs.APITests.tests.contracts.casco.RemoveCascoTests"/>
-                <class name="ru.rgs.APITests.tests.contracts.casco.RemoveCascoConditionalTests"/>
-                <class name="ru.rgs.APITests.tests.contracts.casco.RemoveCascoBusinessAutoTest"/>
-                <class name="ru.rgs.APITests.tests.contracts.dsago.RemoveDsagoTests"/>
-                <class name="ru.rgs.APITests.tests.contracts.greenCard.RemoveGreenCardTests"/>
-                <class name="ru.rgs.APITests.tests.contracts.ob.RemovePrimaryBusinessTests"/>
-                <class name="ru.rgs.APITests.tests.contracts.ob.RemovePrimaryBusinessNoBsoTests"/>
-                <class name="ru.rgs.APITests.tests.contracts.ob.RemovePrimaryBusinessConditionalTests"/>
-                <class name="ru.rgs.APITests.tests.contracts.ob.RemovePrimaryBusinessNoBsoConditionalTests"/>
-                <class name="ru.rgs.APITests.tests.contracts.boxed.RemoveBoxedTests"/>
-                <class name="ru.rgs.APITests.tests.contracts.techInspection.RemoveTechInspectionTests"/>
-                <class name="ru.rgs.APITests.tests.contracts.osgopp.RemoveOsgoppTests"/>
-                <class name="ru.rgs.APITests.tests.contracts.osopo.RemoveOsopoTests"/>
+
             </classes>
     </test>-->
 
     <test name="test">
 
         <classes>
-            <class name="ru.rgs.WebTests.bdd.OaTestsRun"/>
-
-            <class name="ru.rgs.WebTests.tests.DelAgentStatement"/>
-            <!--<class name="ru.rgs.WebTests.bdd.ExitBrowserRun/>
-            <class name="ru.rgs.WebTests.tests.AddAgentStatement"/>-->
+            <class name="ru.rgs.WebTests.bdd.agentStatement.OaTestsRun"/>
+            <class name="ru.rgs.WebTests.bdd.agentStatement.OaDelRun"/>
+            <!--<class name="ru.rgs.WebTests.testsJavaJava.DelAgentStatement"/>-->
+            <class name="ru.rgs.WebTests.bdd.ExitBrowserRun"/>
+            <!--<class name="ru.rgs.WebTests.testsJavaJava.AddAgentStatement"/>-->
 
         </classes>
     </test>

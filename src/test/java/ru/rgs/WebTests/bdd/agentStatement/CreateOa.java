@@ -1,9 +1,10 @@
-package ru.rgs.WebTests.bdd;
+package ru.rgs.WebTests.bdd.agentStatement;
 
 import cucumber.api.java.Before;
 import cucumber.api.java.ru.И;
 import cucumber.api.java.ru.Когда;
 import cucumber.api.java.ru.Тогда;
+import io.qameta.allure.Feature;
 import io.qameta.allure.Step;
 import io.qameta.allure.Story;
 import org.openqa.selenium.By;
@@ -14,7 +15,7 @@ import org.testng.Assert;
 import ru.rgs.WebTests.TestBase;
 
 import java.time.Instant;
-
+@Feature("Отчет агента")
 @Story("ОА")
 public class CreateOa extends TestBase {
 
@@ -24,8 +25,9 @@ public class CreateOa extends TestBase {
 
   /*@Before
   public void init() {
-    TestBase.setUp();
-
+    if(wd == null) {
+      TestBase.setUp();
+    }
   }*/
 
 
@@ -38,6 +40,9 @@ public class CreateOa extends TestBase {
   @Step("Открываем форму создания ОА из списочной")
   @Когда("^Открываем форму создания ОА из списочной$")
   public void OpenNewForm() throws InterruptedException {
+    if(wd == null) {
+      TestBase.setUp();
+    }
     Thread.sleep(300);
     String currentUrl = wd.getCurrentUrl();
     /*log(currentUrl);*/
@@ -93,7 +98,7 @@ public class CreateOa extends TestBase {
   @Тогда("^сохраняем ОА$")
   public void submitOA() throws InterruptedException {
     try {
-      WebDriverWait wait = new WebDriverWait(wd, 6);
+      WebDriverWait wait = new WebDriverWait(wd, 3);
       wd.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Сохранить'])[1]/following::span[1]")).click();
       try {
         Thread.sleep(300);

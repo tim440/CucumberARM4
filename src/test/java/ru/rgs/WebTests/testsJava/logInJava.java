@@ -1,10 +1,6 @@
-package ru.rgs.WebTests.tests;
+package ru.rgs.WebTests.testsJava;
 
-import java.util.concurrent.TimeUnit;
 import org.testng.annotations.*;
-import static org.testng.Assert.*;
-import org.openqa.selenium.*;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import ru.rgs.WebTests.TestBase;
 
 public class logInJava extends TestBase {
